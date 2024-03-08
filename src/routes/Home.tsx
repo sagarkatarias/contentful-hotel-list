@@ -1,11 +1,16 @@
-import React from 'react'
+import { Button, Box, } from '@mui/material';
+import HotelCards from '../components/HotelCards';
+import { useHotelContext } from '../hooks/useHotelContext';
 
-function Home() {
-  return (
-    <div>
-        <h1>Home</h1>
-    </div>
-  )
-}
+const Home = () => {
+    const { handleLoadHotels } = useHotelContext();
 
-export default Home
+    return (
+        <Box>
+            <Button variant="contained" onClick={handleLoadHotels} sx={{ marginBottom: 2, textTransform: 'none', fontWeight: 'bold' }}>Load Hotels</Button>
+            <HotelCards />
+        </Box>
+    );
+};
+
+export default Home;
