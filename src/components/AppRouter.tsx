@@ -1,13 +1,27 @@
-import React from "react";
 import { Route, Routes } from "react-router-dom";
 import Home from "../routes/Home";
+import { HotelProvider } from "../context/HotelProvider";
 
 export function AppRouter() {
   return (
-    <div className="card">
+    <div>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/converter" element={<Home />} />
+        <Route
+          path="/"
+          element={
+            <HotelProvider>
+              <Home />
+            </HotelProvider>
+          }
+        />
+        <Route
+          path="/home"
+          element={
+            <HotelProvider>
+              <Home />
+            </HotelProvider>
+          }
+        />
       </Routes>
     </div>
   );
