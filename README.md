@@ -1,8 +1,8 @@
 # Start the project
 
-Run  **npm i ** to install all the dependencies.
+Run  **npm i** to install all the dependencies.
 
-Run  **npm start ** to start the React 18 app.
+Run  **npm start** to start the React 18 app.
 
 
 # React + TypeScript + Vite
