@@ -6,7 +6,7 @@ import { HotelDescriptionContainerProps } from '../../types/ComponentProps';
 const HotelDescriptionContainer = ({ hotel }: HotelDescriptionContainerProps) => {
     const { handleShowReviews, selectedHotelReviews } = useHotelContext();
     return (
-        <Grid item xs={12} md={6} sx={{ paddingRight: 2, marginTop: 5, marginLeft: { md: 2 } }}>
+        <Grid item xs={12} md={6} sx={{ paddingRight: 2, marginTop: 5 }}>
             <Box sx={{ display: 'flex', flexDirection: 'column', height: '100%' }}>
                 <Box sx={{ flex: 1 }}>
                     <Box sx={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between' }}>
