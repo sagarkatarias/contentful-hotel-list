@@ -4,7 +4,6 @@ import { sanitizeContent } from "../utils/sanitize";
 import { dateToGermanFormat } from "../utils/dateConverter";
 
 const useContentful = () => {
-  console.log(import.meta.env);
   const client = createClient({
     space: import.meta.env.VITE_SPACE_ID,
     accessToken: import.meta.env.VITE_ACCESS_TOKEN,
