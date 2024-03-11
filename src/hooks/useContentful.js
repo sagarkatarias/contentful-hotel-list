@@ -4,9 +4,10 @@ import { sanitizeContent } from "../utils/sanitize";
 import { dateToGermanFormat } from "../utils/dateConverter";
 
 const useContentful = () => {
+  console.log(import.meta.env);
   const client = createClient({
-    space: "gyfunrv4a4ak",
-    accessToken: "k9P9FQJcUpHKrHX3tXrgXunRyiS3qPchtY7V61tNruE",
+    space: import.meta.env.VITE_SPACE_ID,
+    accessToken: import.meta.env.VITE_ACCESS_TOKEN,
     host: "cdn.contentful.com",
   });
 
