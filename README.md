@@ -7,6 +7,10 @@ Run  **npm i** to install all the dependencies.
 Run  **npm start** to start the React 18 app.
 
 
+![Uploading Screenshot 2024-03-11 at 1.44.39 PM.png…]()
+
+
+
 ### Features
 
 - I have used React Router to add routes to the app and Typescript for type checking
