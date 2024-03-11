@@ -6,9 +6,7 @@ Run  **npm i** to install all the dependencies.
 
 Run  **npm start** to start the React 18 app.
 
-
-![Uploading Screenshot 2024-03-11 at 1.44.39 PM.png…]()
-
+<img width="1373" alt="Screenshot 2024-03-11 at 1 44 39 PM" src="https://github.com/sagarkatarias/contentful-hotel-list/assets/25650222/4093a4d3-fe98-42cb-9260-ac935aa08a75">
 
 
 ### Features
