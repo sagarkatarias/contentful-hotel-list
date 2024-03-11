@@ -8,5 +8,5 @@ export interface Review {
     hotel: string;
     rating: number;
     title: string;
-  }
+}
   

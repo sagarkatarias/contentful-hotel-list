@@ -1,9 +1,6 @@
 import { Hotel } from "./Hotel";
 import { Review } from "./Reviews";
 
-export interface HotelCardsProps {
-    
-}
 
 export interface ImageContainerProps {
     url: string;

@@ -22,7 +22,7 @@ const HotelCards = () => {
                             </Grid>
                             <Collapse in={selectedHotelReviews.includes(hotel.name)} timeout="auto" unmountOnExit sx={{ bgcolor: "grey.300" }}>
                                 <List >
-                                    {filterReviews(reviews, hotel.name).map((review: Review, index: number, array: string | any[]) => (
+                                    {filterReviews(reviews, hotel.name).map((review: Review, index: number, array: Review[]) => (
                                         <React.Fragment key={index}>
                                             <SingleReview review={review} />
                                             {index !== array.length - 1 && <Divider />}
